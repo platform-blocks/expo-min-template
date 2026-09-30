@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Platform Blocks App",
-    "slug": "platform-blocks-app",
-    "version": "1.0.0",
+    "name": "plocks App",
+    "slug": "plocks-app",
+    "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,

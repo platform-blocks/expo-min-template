@@ -1,36 +1,32 @@
-# expo-min-template
+<p ta="center">
+  <a href="https://plocks.dev/" rel="noopener" target="_blank"><img width="75" height="75" src="https://raw.githubusercontent.com/platform-blocks/plocks/HEAD/apps/docs/assets/favicon.png" alt="plocks logo"/></a>
+</p>
 
-Minimal [Expo](https://expo.dev) starter for [Platform Blocks](https://platform-blocks.com) — a single screen with the provider set up and nothing else to delete. Runs on iOS, Android, and web.
+<h1 ta="center">plocks Minimal Expo Template</h1>
 
-## Use this template
-
-Click **Use this template** on GitHub to create your own repository from it, or scaffold directly:
-
-```bash
-npx create-expo-app@latest my-app --template https://github.com/platform-blocks/expo-min-template
-```
+<p ta="center">
+  The smallest <a href="https://expo.dev">Expo</a> starter for <a href="https://plocks.dev">plocks</a>: one screen with the provider set up and nothing to delete. Runs on iOS, Android, and web.
+</p>
 
 ## Get started
 
 ```bash
-npm install
+npx create-expo-app@latest my-app --template https://github.com/platform-blocks/expo-min-template
+cd my-app
 npx expo start
 ```
 
-Press `i` for iOS simulator, `a` for Android emulator, or `w` for web.
+Press `i` for iOS, `a` for Android, or `w` for web, then start editing [`App.tsx`](./App.tsx).
 
-## What's inside
+Prefer GitHub? Click **Use this template**, clone your new repository, and run `npm install` before `npx expo start`.
 
-- [`@platform-blocks/ui`](https://www.npmjs.com/package/@platform-blocks/ui) with all required peer dependencies installed
-- `PlatformBlocksProvider` wired up in [`App.tsx`](./App.tsx) — theming, dark mode (follows the OS setting), overlays, and haptics all work out of the box
-- TypeScript in strict mode
+## What is plocks?
 
-## Learn more
+[plocks](https://plocks.dev) is an open-source UI component library for [React Native](https://reactnative.dev). You write your screens once and they run on iOS, Android, and the web, with light and dark themes and accessibility built in.
 
-- [Getting started](https://platform-blocks.com/getting-started) — installation, provider, first component
-- [Components](https://platform-blocks.com/components) — every component with live demos
-- [Full template](https://github.com/platform-blocks/expo-template) — Expo Router, tabs, dark-mode toggle, tests, and linting
+- [Browse 100+ UI components](https://plocks.dev/components) with live demos, from buttons and forms to navigation and overlays
+- [Explore 24 chart types](https://plocks.dev/charts) you can add with `@plocks/charts`
+- [See example screens](https://plocks.dev/examples) such as a dashboard, a login form, and a settings page
+- [Read the getting started guide](https://plocks.dev/getting-started) for installation steps and the other starter templates
 
-## License
-
-MIT
+Have a question or an idea? Come say hi on [Discord](https://discord.gg/kbHjwzgXbc), or star the project on [GitHub](https://github.com/platform-blocks/plocks).
